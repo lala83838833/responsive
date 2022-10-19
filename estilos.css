@@ -1,0 +1,52 @@
+body{
+    font-family: 'Comforter Brush', cursive;
+    font-size: 30px;
+    margin: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2014/03/24/21/05/blood-295734_960_720.png);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(226, 6, 6);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: azure;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+p{
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
+}
+h3{
+    color: aliceblue;
+    font-family: 'Nanum Brush Script', cursive;
+}
